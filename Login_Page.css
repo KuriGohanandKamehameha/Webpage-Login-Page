@@ -1,0 +1,84 @@
+h1{
+    margin-left: 150px;
+    color: grey;
+}
+
+p{
+    margin-left: 150px;
+    color: grey;
+    
+}
+h2{
+    border-radius: 5px;
+    margin-right: 50px;
+    color: grey;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 430px;
+
+}
+.div1{ 
+    border-radius: 5px;
+   
+    text-align: center;
+    justify-content: center;
+    color: rgb(162, 161, 161);
+    background-color: black;
+    width: 410px;
+    background-color: rgb(79, 73, 85);
+}
+
+
+body{
+    background-color: rgb(52, 50, 50);
+    margin-left: 500px;
+    font-family: sans-serif;
+}
+form{
+    text-align: left;
+
+}
+.button1{
+    background-color:  rgb(28, 178, 228);
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button2{
+    background-color:  rgb(79, 73, 85);
+    color: white;
+    width: 370px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+input[type="text"]{
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(79, 73, 85) ;
+    padding: 10px;
+    width: 95%;
+}
+
+
+.div2{
+    
+    border-radius: 5px;
+    
+    color: rgb(162, 161, 161);
+    background-color: rgb(36, 35, 35);
+    width: 410px;
+    height: 550px;    
+}
+.div3{
+    
+    text-align: center;
+    color: white;
+}
+.div4{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}

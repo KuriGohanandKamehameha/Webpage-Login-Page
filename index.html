@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="Login_Page.css">
+        <link rel="stylesheet" href="Login_Page_mod.css">
+        <script src="Login_Page_mod.js"></script>
     </head>
     <body>
     <h1>Xtra<span style="color: rgb(28, 178, 228)">Form</span></h1>
@@ -15,16 +16,16 @@
 
             <div class="div4">
             <label for="username">Username </label><br>
-            <input type="text" name="uname" placeholder="Username"><br><br>
+            <input id="uname1" type="text" name="uname" placeholder="Username"><br><br>
             <label for="email">Email </label><br>
-            <input type="text" placeholder="Email"><br><br>
+            <input id="email1" type="text" placeholder="Email"><br><br>
             <label for="Password">Password </label><br>
-            <input type="text" placeholder="Password"><br><br>
+            <input id ="pass1" type="text" placeholder="Password"><br><br>
             <label for="re">Retype Password </label><br>
-            <input type="text" placeholder="Retype Password"><br><br>
-            <input type="checkbox">
+            <input id ="pass2" type="text" placeholder="Retype Password"><br><br>
+            <input id="check1" type="checkbox">
             <label> Accept the terms and policies</label><br><br>
-            <input type="submit" value="SIGN UP" class="button1">     
+            <input onclick="unamechecker(); passchecker();emailchecker();checkchecker()" type="submit" value="SIGN UP" class="button1">     
             </div>
     </form>
     <div class="div3">
